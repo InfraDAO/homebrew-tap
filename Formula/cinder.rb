@@ -1,28 +1,28 @@
 class Cinder < Formula
   desc "Developer CLI for Canton Network: runs filters over a validator's PQS"
   homepage "https://github.com/InfraDAO/canton-indexer-releases"
-  version "0.3.0"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/InfraDAO/canton-indexer-releases/releases/download/v#{version}/cinder-aarch64-darwin"
-      sha256 "4ba6d1c4bd798116ebdb1ebbc1a5a2931eeb05d8ada749be3d802e1317cd7854"
+      sha256 "93bff813b612eaaed8bb521d8ab422323878d4c1c6ed7ab3295bf10195c72434"
     end
     on_intel do
       url "https://github.com/InfraDAO/canton-indexer-releases/releases/download/v#{version}/cinder-x86_64-darwin"
-      sha256 "f83daaf011dc54f4b987810c55b7c61998547b161193513e5b6796ab60ce3109"
+      sha256 "0ce873fe901177c2699f4fb30b6ce86bc58c9dd19d28d2813137b69ad62767c3"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/InfraDAO/canton-indexer-releases/releases/download/v#{version}/cinder-aarch64-linux"
-      sha256 "74a6b77ac5f4a5b2c4985d777f5a2c35af735080fb4c339c6469cf10c16f56b4"
+      sha256 "8b740b86722aef701a4e151f43ca54e2b9f2d2d597fd74f04e7b85eee269e5e3"
     end
     on_intel do
       url "https://github.com/InfraDAO/canton-indexer-releases/releases/download/v#{version}/cinder-x86_64-linux"
-      sha256 "b8339bcbb0c5ebcaff3d12ca949f88359819a6a60c3d45726f65cf5ccc2619a6"
+      sha256 "4bad9cd22684275d56851613648ac01739019e375bbe756c0ef4917a493dc2a6"
     end
   end
 
